@@ -8,7 +8,7 @@ document.getElementById('accessForm').addEventListener('submit', function(event)
     const clavesValidas = {
         Almacen: "Alm123", // Clave para Fabricación
         Calidad: "ctrl456",    // Clave para Control Estructural
-        Servicio: "serv789"    // Clave para Servicio
+        Servicio: "Servicio"    // Clave para Servicio
     };
 
     // Definimos los enlaces para cada área
