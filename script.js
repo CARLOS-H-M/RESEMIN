@@ -6,16 +6,16 @@ document.getElementById('accessForm').addEventListener('submit', function(event)
 
     // Definimos las claves válidas para cada área
     const clavesValidas = {
-        fabricacion: "fab123", // Clave para Fabricación
-        control: "ctrl456",    // Clave para Control Estructural
-        servicio: "serv789"    // Clave para Servicio
+        Almacen: "Alm123", // Clave para Fabricación
+        Calidad: "ctrl456",    // Clave para Control Estructural
+        Servicio: "serv789"    // Clave para Servicio
     };
 
     // Definimos los enlaces para cada área
     const enlaces = {
-        fabricacion: "https://www.ejemplo.com/fabricacion",
-        control: "https://www.ejemplo.com/control-estructural",
-        servicio: "https://www.ejemplo.com/servicio"
+        Almacen: "https://app.powerbi.com/view?r=eyJrIjoiMzAwMTEyMGYtYzE5Yi00MTNlLWJiNDYtYTkyOGU0MjVhZmExIiwidCI6IjU0NWQ1NWI1LWMyNzAtNGY3YS1hYTVkLWIzM2FhYWRkYTllNyIsImMiOjR9",
+        Calidad: "https://app.powerbi.com/view?r=eyJrIjoiZTdkYjlmNzctYzNmNS00NjE0LTllNmMtMjAwMmEzMWQ4ZGQwIiwidCI6IjU0NWQ1NWI1LWMyNzAtNGY3YS1hYTVkLWIzM2FhYWRkYTllNyIsImMiOjR9",
+        Servicio: "https://app.powerbi.com/view?r=eyJrIjoiZTU3MmYzN2QtYmZmMi00Y2VmLWEzN2EtMDcyYWIxY2UyZTUxIiwidCI6IjU0NWQ1NWI1LWMyNzAtNGY3YS1hYTVkLWIzM2FhYWRkYTllNyIsImMiOjR9"
     };
 
     // Validamos la clave
